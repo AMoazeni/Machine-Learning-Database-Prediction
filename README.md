@@ -25,15 +25,11 @@ Feature Scaling (Standardize or Normalize) is applied to input variables makes i
 
 
 
-\begin{equation*}
-X_{Standardized} = \frac{X - Min(X)}{Max(X) - Min(X)} 
-\end{equation*}
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/02_1%20-%20Standardized%20Equation.png">
 
 
 
-$$
-X_{Normalized} = \frac{X - μ (Mean)}{σ (Standard Deviation)} 
-$$
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/02_2%20-%20Normalized%20Equation.png">
 
 
 
