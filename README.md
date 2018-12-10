@@ -1,11 +1,11 @@
 # Artificial Neural Networks
 
 
-Before we look at the Database Prediction problem and start programming, let's take a look at the theory behind the Artificial Neural Network algorithm which is a popular technique used in Deep Machine Learning. This technique was popularized by Geoffrey Hinton in the 1980's. "Deep" in Deep Learning refers to all the hidden layers used in this Dynamic Programming algorithms.
+Before we look at the Database Prediction problem and start programming, let's take a look at the theory behind the Artificial Neural Network algorithm which was popularized by Geoffrey Hinton in the 1980's and is used in Deep Machine Learning. "Deep" in Deep Learning refers to all the hidden layers used in this type of Dynamic Programming algorithm.
 
 
 
-The input layer observations and output refer to one row of data. Adjustment of the weights is how Neural Nets learn, they decide the strength and importance of signals that are passed along or blocked by an Activation Function. They keep adjusting weights until the predicted output closely matches the actual output.
+The input layer observations and related output refer to ONE row of data. Adjustment of weights is how Neural Nets learn, they decide the strength and importance of signals that are passed along or blocked by an Activation Function. They keep adjusting weights until the predicted output closely matches the actual output.
 
 
 
@@ -95,15 +95,15 @@ Read this [Deep Learning Book](http://neuralnetworksanddeeplearning.com/index.ht
 This is a Cost minimization technique that looks for downhill slopes and works on Convex Cost Functions. The function can have any number of dimensions, but we are only able to visualize up to three dimensions.
 
 
-# 1D Gradient Descent
+### 1D Gradient Descent
 <img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/09%20-%20Gradient%20Descent%201D.png" width="600">
 
 
-# 2D Gradient Descent
+### 2D Gradient Descent
 <img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/10%20-%20Gradient%20Descent%202D.png" width="300">
 
 
-# 3D Gradient Descent
+### 3D Gradient Descent
 <img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/11%20-%20Gradient%20Descent%203D.png" width="600">
 
 
@@ -196,7 +196,7 @@ The Bank is trying to build a Machine Learning model that predicts the likelihoo
 
 
 
-# Code
+### Code
 
 
 You can run the code online with Google Colab which is web based and doesn't require installations. 
