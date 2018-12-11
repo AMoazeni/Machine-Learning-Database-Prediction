@@ -1,6 +1,6 @@
 # Introduction
 
-TLDR - Take me to the [code and Jupyter Notebook](https://colab.research.google.com/drive/1fkkPPombnFH7_A8dlOkia2P0SZWMVt7o)!
+Take me to the [code and Jupyter Notebook](https://colab.research.google.com/drive/1fkkPPombnFH7_A8dlOkia2P0SZWMVt7o)!
 
 
 This article shows you the theory and code behind a popular Machine Learning technique called Artificial Neural Network (ANN) which is commonly referred to as Deep Learning.
