@@ -1,7 +1,19 @@
+# Introduction
+
+
+This article shows you the theory and code behind a popular Machine Learning technique called Artificial Neural Network (ANN) which is commonly referred to as Deep Learning.
+
+
+You are provided with a Bank database with 10,000 customers. You're training an ML model to predict the likelihood of a customer leaving or staying with the bank. This code is robust in architecture and can be modified to predict all sorts of customer behavior, provided with enough data.
+
+
+
+
+
 # Artificial Neural Networks
 
 
-Before we look at the Database Prediction problem and start programming, let's take a look at the theory behind the Artificial Neural Network algorithm which was popularized by Geoffrey Hinton in the 1980's and is used in Deep Machine Learning. "Deep" in Deep Learning refers to all the hidden layers used in this type of Dynamic Programming algorithm.
+Let's take a look at the theory behind the Artificial Neural Network algorithm which was popularized by Geoffrey Hinton in the 1980's and is used in Deep Machine Learning. "Deep" in Deep Learning refers to all the hidden layers used in this type of Dynamic Programming algorithm.
 
 
 
@@ -21,7 +33,13 @@ Here is a zoomed in version of the node diagram. Yellow nodes represent inputs, 
 
 
 
-Feature Scaling (Standardize or Normalize) is applied to input variables makes it easy for Neural Nets to process data by bringing their values close to each other, read 'Efficient Back Propagation.pdf' in the research papers section.
+
+
+
+# Feature Scaling
+
+
+Feature Scaling (Standardize or Normalize) is applied to input variables. This makes it easy for Neural Nets to process data by bringing input values close to each other, read 'Efficient Back Propagation.pdf' in the research papers section.
 
 
 
@@ -135,7 +153,7 @@ These are the steps for Stochastic Gradient Descent:
 
 
 
-# Evaluating the ANN
+# Evaluating the Artificial Neural Network
 
 
 Be careful when measuring the accuracy of a model. Bias and Variance can differ every time the model is evaluated. To solve this problem, we can use K-Fold Cross Validation which splits the data into multiple segments and averages overall accuracy.
@@ -195,11 +213,11 @@ The Bank is trying to build a Machine Learning model that predicts the likelihoo
 ### Code
 
 
-You can run the code online with Google Colab which is web based and doesn't require installations. 
+You can run the code online with [Google Colab](https://colab.research.google.com/drive/1fkkPPombnFH7_A8dlOkia2P0SZWMVt7o) which is a web based Jupyter Notebook environment and doesn't require installations. 
 
 
 
-The better alternative is to download the code and run it with 'Spyder' found in the [Anaconda Distribution](https://www.anaconda.com/download/). 'Spyder' is similar to MATLAB, it allows you to step through the code and examine the 'Variable Explorer' to see exactly how the data is parsed and analyzed.
+The better alternative is to download the code and run it with 'Jupyter Notebook' or copy the code into the 'Spyder' IDE found in the [Anaconda Distribution](https://www.anaconda.com/download/). 'Spyder' is similar to MATLAB, it allows you to step through the code and examine the 'Variable Explorer' to see exactly how the data is parsed and analyzed.
 
 
 
