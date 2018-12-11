@@ -6,7 +6,7 @@ Take me to the [code and Jupyter Notebook](https://github.com/AMoazeni/Machine-L
 This article shows you the theory and code behind a popular Machine Learning technique called Artificial Neural Network (ANN) which is a common Deep Learning algorithm.
 
 
-You are provided with a Bank database with 10,000 customers. Let's train a Machine Learning model to predict the likelihood of a customer leaving or staying with the business. This code is robust in architecture and can be modified to predict all sorts of customer behavior.
+You are provided with a Bank database consisting of 10,000 customer data entries. Let's train a Machine Learning model to predict the likelihood of a customer leaving or staying with the business. This code is robust in architecture and can be modified to predict all sorts of customer behavior.
 
 
 
