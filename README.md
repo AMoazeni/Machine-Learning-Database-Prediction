@@ -3,7 +3,7 @@
 Take me to the [code and Jupyter Notebook](https://colab.research.google.com/drive/1fkkPPombnFH7_A8dlOkia2P0SZWMVt7o)!
 
 
-This article shows you the theory and code behind a popular Machine Learning technique called Artificial Neural Network (ANN) which is commonly referred to as Deep Learning.
+This article shows you the theory and code behind a popular Machine Learning technique called Artificial Neural Network (ANN) which is a common Deep Learning algorithm.
 
 
 You are provided with a Bank database with 10,000 customers. You're training an ML model to predict the likelihood of a customer leaving or staying with the bank. This code is robust in architecture and can be modified to predict all sorts of customer behavior, provided with enough data.
