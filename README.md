@@ -1,15 +1,10 @@
 # Introduction
 
-<<<<<<< HEAD
-=======
-Take me to the [code and Jupyter Notebook](https://github.com/AMoazeni/Machine-Learning-Database-Prediction/blob/master/Jupyter%20Notebook/ML%20-%20Database%20Prediction.ipynb)!
-
->>>>>>> b94ea5cff720f9c76200cd30150bdcbd24168ec5
 
 This article shows you the theory and code behind a popular Machine Learning technique called Artificial Neural Network (ANN) which is a common Deep Learning algorithm.
 
 
-You are provided with a Bank database consisting of 10,000 customer data entries. Let's train a Machine Learning model to predict the likelihood of a customer leaving or staying with the business. This code is robust in architecture and can be modified to predict all sorts of customer behavior.
+You are provided with a Bank database with 10,000 customers. You're training an ML model to predict the likelihood of a customer leaving or staying with the bank. This code is robust in architecture and can be modified to predict all sorts of customer behavior, provided with enough data.
 
 
 
