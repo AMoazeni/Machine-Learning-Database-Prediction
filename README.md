@@ -1,6 +1,9 @@
 # Introduction
 
 
+Take me to the [code and Jupyter Notebook](https://github.com/AMoazeni/Machine-Learning-Database-Prediction/blob/master/Jupyter%20Notebook/ML%20-%20Database%20Prediction.ipynb) for Database Prediction!
+
+
 This article shows you the theory and code behind a popular Machine Learning technique called Artificial Neural Network (ANN) which is a common Deep Learning algorithm.
 
 
