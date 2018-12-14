@@ -1,7 +1,5 @@
 # Introduction
 
-Take me to the [code and Jupyter Notebook](https://colab.research.google.com/drive/1fkkPPombnFH7_A8dlOkia2P0SZWMVt7o)!
-
 
 This article shows you the theory and code behind a popular Machine Learning technique called Artificial Neural Network (ANN) which is a common Deep Learning algorithm.
 
@@ -23,7 +21,7 @@ The input layer observations and related output refer to ONE row of data. Adjust
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/01%20-%20Deep%20Learning.png">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Jupyter%20Notebook/Images/01%20-%20Deep%20Learning.png">
 
 
 
@@ -31,7 +29,7 @@ Here is a zoomed in version of the node diagram. Yellow nodes represent inputs, 
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/02%20-%20Neuron.png">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Jupyter%20Notebook/Images/02%20-%20Neuron.png">
 
 
 
@@ -45,11 +43,11 @@ Feature Scaling (Standardize or Normalize) is applied to input variables. This m
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/02_1%20-%20Standardized%20Equation.png">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Jupyter%20Notebook/Images/02_1%20-%20Standardized%20Equation.png">
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/02_2%20-%20Normalized%20Equation.png">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Jupyter%20Notebook/Images/02_2%20-%20Normalized%20Equation.png">
 
 
 
@@ -63,16 +61,16 @@ Here is a list of some Neural Network Activation Functions. Read 'Deep sparse re
 
 
 1. Threshold Function - Rigid binary style function
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/03%20-%20Threshold.png" width="400">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Jupyter%20Notebook/Images/03%20-%20Threshold.png" width="400">
 
 2. Sigmoid Function - Smooth, good for output Layers that predict probability
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/04%20-%20Sigmoid.png" width="400">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Jupyter%20Notebook/Images/04%20-%20Sigmoid.png" width="400">
 
 3. Rectifier Function - Gradually increases as input Value increases
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/05%20-%20Rectifier.png" width="400">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Jupyter%20Notebook/Images/05%20-%20Rectifier.png" width="400">
 
 4. Hyperbolic Tangent Function - Similar to Sigmoid Function but values can go below zero
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/06%20-%20Tanh.png" width="400">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Jupyter%20Notebook/Images/06%20-%20Tanh.png" width="400">
 
 
 
@@ -80,7 +78,7 @@ Different layers of a Neural Net can use different Activation Functions.
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/07%20-%20NN%20Activation%20Example.png" width="600">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Jupyter%20Notebook/Images/07%20-%20NN%20Activation%20Example.png" width="600">
 
 
 
@@ -112,15 +110,15 @@ This is a Cost minimization technique that looks for downhill slopes and works o
 
 
 ### 1D Gradient Descent
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/09%20-%20Gradient%20Descent%201D.png" width="600">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Jupyter%20Notebook/Images/09%20-%20Gradient%20Descent%201D.png" width="600">
 
 
 ### 2D Gradient Descent
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/10%20-%20Gradient%20Descent%202D.png" width="300">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Jupyter%20Notebook/Images/10%20-%20Gradient%20Descent%202D.png" width="300">
 
 
 ### 3D Gradient Descent
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/11%20-%20Gradient%20Descent%203D.png" width="600">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Jupyter%20Notebook/Images/11%20-%20Gradient%20Descent%203D.png" width="600">
 
 
 
@@ -138,7 +136,7 @@ In order to avoid the Local Minimum trap, we can take more sporadic steps in ran
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/12%20-%20Local%20Min%20Trap.png">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Jupyter%20Notebook/Images/12%20-%20Local%20Min%20Trap.png">
 
 
 
@@ -162,11 +160,11 @@ Be careful when measuring the accuracy of a model. Bias and Variance can differ 
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/13%20-%20Bias-Variance%20Tradeoff.png" width="400">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Jupyter%20Notebook/Images/13%20-%20Bias-Variance%20Tradeoff.png" width="400">
 
 
 
-<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Images/14%20-%20K-Fold%20Cross%20Validation.png" width="400">
+<img src="https://raw.githubusercontent.com/AMoazeni/Machine-Learning-Database-Prediction/master/Jupyter%20Notebook/Images/14%20-%20K-Fold%20Cross%20Validation.png" width="400">
 
 
 
@@ -219,7 +217,7 @@ You can run the code online with [Google Colab](https://colab.research.google.co
 
 
 
-The better alternative is to download the code and run it with 'Jupyter Notebook' or copy the code into the 'Spyder' IDE found in the [Anaconda Distribution](https://www.anaconda.com/download/). 'Spyder' is similar to MATLAB, it allows you to step through the code and examine the 'Variable Explorer' to see exactly how the data is parsed and analyzed.
+The better alternative is to download the code and run it with 'Jupyter Notebook' or copy the code into the 'Spyder' IDE found in the [Anaconda Distribution](https://www.anaconda.com/download/). 'Spyder' is similar to MATLAB, it allows you to step through the code and examine the 'Variable Explorer' to see exactly how the data is parsed and analyzed. Jupyter Notebook also offers a [Jupyter Variable Explorer Extension](http://volderette.de/jupyter-notebook-variable-explorer/) which is quite useful for keeping track of variables.
 
 
 
